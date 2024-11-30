@@ -191,7 +191,7 @@ textarea {
 
 @media (max-width: 1600px) {
   .contact {
-    border-radius: 40rem 2rem 40rem 2rem;
+    border-radius: 45rem 2rem 45rem 2rem;
   }
   .container {
     padding: 5rem 15rem;
@@ -201,6 +201,9 @@ textarea {
 @media (max-width: 1300px) {
   .container {
     padding: 5rem 5rem;
+  }
+  .contact {
+    border-radius: 35rem 2rem 35rem 2rem;
   }
 }
 
