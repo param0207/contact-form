@@ -129,11 +129,21 @@ html {
   height: 10rem;
   border-radius: 100rem;
   background-color: rgb(209, 204, 204);
-  top: 50%;
-  left: 50%;
+  top: 30%;
+  left: 30%;
   transform: translate(-50%, -50%);
   border: 2.5rem dotted whitesmoke;
   z-index: 1;
+  animation: dialingAnim 4s infinite alternate-reverse;
+}
+
+@keyframes dialingAnim {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
 }
 
 .contact-wrapper {
