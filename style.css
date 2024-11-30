@@ -26,6 +26,13 @@ html {
   justify-content: center;
 }
 
+.telephone-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .telephone {
   width: 25rem;
   height: 20rem;
@@ -126,4 +133,8 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
   border: 2.5rem dotted whitesmoke;
+}
+
+.contact-wrapper {
+  flex: 1;
 }
