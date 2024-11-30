@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 5rem 20rem;
+}
+
+.contact {
+  width: 100%;
+  height: 100%;
+  background-color: #d8dde2;
+  /* border-radius: 40rem 2rem 40rem 2rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.telephone {
+  width: 25rem;
+  height: 20rem;
+  background-color: #5f9ea0;
+  border-radius: 15rem 15rem 5rem 5rem;
+  position: relative;
+}
+
+.telephone::before,
+.telephone::after {
+  content: "";
+  position: absolute;
+  width: 6rem;
+  height: 10rem;
+  background-color: #5f9ea0;
+  top: -15%;
+  border-radius: 5rem 5rem 0 0;
+}
+
+.telephone::before {
+  left: 2rem;
+}
+.telephone::after {
+  right: 2rem;
+}
+
+.handset {
+  width: 35rem;
+  height: 4rem;
+  background-color: rgb(233, 127, 145);
+  position: absolute;
+  border-radius: 10rem;
+  top: -7.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.handset::before,
+.handset::after {
+  content: "";
+  position: absolute;
+  width: 6rem;
+  height: 4rem;
+  background-color: rgb(228, 165, 48);
+  border-radius: 5rem;
+  top: 110%;
+}
+
+.handset::before {
+  left: 0;
+}
+.handset::after {
+  right: 0;
+}
+
+.stand {
+  width: 100%;
+  height: 4rem;
+  background-color: #3c6a6b;
+  position: absolute;
+  border-radius: 10rem;
+  top: 105%;
+}
+
+.dialing-mechanism {
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 100rem;
+  background-color: rgb(209, 204, 204);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2.5rem dotted whitesmoke;
+}
